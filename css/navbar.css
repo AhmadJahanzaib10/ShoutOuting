@@ -29,6 +29,13 @@
 .dropdown-toggle::after{
     display: none !important;
 }
+#language{
+    background-color: transparent;
+    border: 1px solid #475467;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
 .btn-login{
     background-color: #F6911B;
     color: #fff;
