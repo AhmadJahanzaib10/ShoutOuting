@@ -163,11 +163,28 @@
                 <a class="nav-link" aria-disabled="true">Blog</a>
               </li>
             </ul>
-            <div class="d-flex gap-2 btns">
-              <select name="language" id="language">
-                <option value="en">English</option>
-                <option value="hebrew">Hebrew</option>
-              </select>
+            <div class="d-flex gap-2 btns position-relative">
+              <div class="language" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span>English</span>
+              <i class="ri-arrow-down-s-line"></i>
+            </div>
+            <ul class="dropdown-menu language-dropdown">
+              <li>
+                <a href="#" class="dropdown-item fw-semibold">
+                  English
+                </a>
+              </li>
+              <li>
+                <a href="#" class="dropdown-item fw-semibold">
+                  Hebrew
+                </a>
+              </li>
+            </ul>
+              <!-- <select name="language" id="language">
+                <option value="en"><a href="https://github.com/AhmadJahanzaib10/ShoutoutingHebrew">English</a></option>
+                <option value="hebrew"><a href="#">Hebrew</a></option>
+              </select> -->
                 <a href="Login.html" class="btn-login btn">Login</a>
               <button class="btn-signup btn" data-bs-toggle="dropdown"
               aria-expanded="false" role="button" type="submit">Signup</button>

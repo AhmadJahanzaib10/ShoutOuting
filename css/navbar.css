@@ -29,12 +29,21 @@
 .dropdown-toggle::after{
     display: none !important;
 }
-#language{
+.language{
     background-color: transparent;
     border: 1px solid #475467;
     font-size: 14px;
     padding: 5px 10px;
     border-radius: 6px;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.language-dropdown{
+    position: absolute;
+    width: fit-content;
 }
 .btn-login{
     background-color: #F6911B;
@@ -73,7 +82,7 @@
     margin-right: 5px;
 }
 .register-dropdown{
-    right: 60px !important;
+    right: -30px !important;
     width: fit-content !important;
     left: auto !important;
 }
@@ -212,6 +221,9 @@
     .profile-dropdown{
         left: 100px !important;
         right: auto !important;
+    }
+    .register-dropdown{
+        right: 0px !important;
     }
 }
 @media screen and (max-width: 768px){
